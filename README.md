@@ -5,7 +5,9 @@ The purpose of this project is to create an interpreter for standard 6 string ta
 
 ## Phase 1
 Basic interpretation where the number of _ characters represents the
-string number preceding the fret number on that particular string.
+string number preceding the fret number on that particular string. For
+now, using the _ character will suffice since we are not worried about
+time efficiency on a large scale.
 
 input 
 
