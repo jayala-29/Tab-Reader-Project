@@ -50,11 +50,11 @@ Chords have the representation NOTE_1 | NOTE_2 ... | NOTE_N.
 
 input
 
-0^_0^__0 5^_5^__5
+0^_2^__2 3^_5^__5
 
 output
 
-6 0 | 5 0 | 4 0
+6 0 | 5 2 | 4 2
 <br /><br />
 
-6 5 | 5 5 | 4 5
+6 3 | 5 5 | 4 5
