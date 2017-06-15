@@ -1,6 +1,6 @@
 public class MusicReader1 {
   public static void main(String[] args) {
-    String song = "0 000 000 000 000 000 000 0023";
+    String song = "00000000000000000000023";
     int string_num = 0;
     for (int note = 0; note < song.length(); note++) {
       if (song.charAt(note) != '_' && Character.isDigit(song.charAt(note))) {
