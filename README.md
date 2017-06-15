@@ -58,3 +58,31 @@ output
 <br /><br />
 
 6 3 | 5 5 | 4 5
+
+## Phase 4
+Interpreter should be able to recognize sequences of notes to be
+repeated a specified amount of times. This functionality should have
+the form /*SEQUENCE_OF_NOTES*NUMBER_TO_REPEAT/
+
+input
+
+0 /*000*2/
+
+output
+
+6 0
+<br /><br />
+
+6 0
+
+6 0
+
+6 0
+<br /><br />
+
+
+6 0
+
+6 0
+
+6 0
