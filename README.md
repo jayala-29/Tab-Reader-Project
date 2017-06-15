@@ -1,7 +1,7 @@
 # Tab-Reader-Project
 
 ## Introduction
-The purpose of this project is to create an interpreter for tablature.
+The purpose of this project is to create an interpreter for standard 6 string tablature.
 
 ### Phase 1
 Basic interpretation where the number of _ characters represents the
