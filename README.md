@@ -22,6 +22,7 @@ Interpreter should be able to distinguish separate notes to emulate
 basic timing.
 
 input
+
 0 000 000
 
 output
