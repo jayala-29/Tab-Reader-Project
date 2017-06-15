@@ -25,7 +25,12 @@ public class TabReader4 {
         } else if (song.charAt(note) == '_') {
           string_num++;
         } else if (song.charAt(note) == '/') {
-          print_repeat (song, note + 1);
+          int offset = print_repeat (song, note + 1);
+          if (offset >= song.length()) {
+            break;
+          }
+          note = offset;
+          continue;
         }
         note++;
       }
@@ -36,7 +41,7 @@ public class TabReader4 {
     return note + 3;
   }
   public static void main(String[] args) {
-    String song = "0 /000 *2/";
+    String song = "/0 /1*2/ *2/";
     int string_num = 0;
     for (int note = 0; note < song.length(); note++) {
       if (song.charAt(note) != '_' && Character.isDigit(song.charAt(note))) {
@@ -53,9 +58,11 @@ public class TabReader4 {
         string_num++;
       } else if (song.charAt(note) == '/') {
         int offset = print_repeat (song, note + 1);
-        if (offset >= song.length() - 1) {
+        if (offset >= song.length()) {
           break;
         }
+        note = offset;
+        continue;
       }
     }
   }
