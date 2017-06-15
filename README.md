@@ -43,3 +43,18 @@ output
 6 0
 
 6 0
+
+### Phase 3
+Interpreter should be able to distinguish single notes from chords.
+Chords have the representation NOTE_1 | NOTE_2 ... | NOTE_N.
+
+input
+
+0^_0^__0 5^_5^__5
+
+output
+
+6 0 | 5 0 | 4 0
+<br /><br />
+
+6 5 | 5 5 | 4 5
