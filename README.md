@@ -17,7 +17,7 @@ output
 
 4 2
 
-### Phase 2
+## Phase 2
 Interpreter should be able to distinguish separate notes to emulate
 basic timing.
 
@@ -44,7 +44,7 @@ output
 
 6 0
 
-### Phase 3
+## Phase 3
 Interpreter should be able to distinguish single notes from chords.
 Chords have the representation NOTE_1 | NOTE_2 ... | NOTE_N.
 
