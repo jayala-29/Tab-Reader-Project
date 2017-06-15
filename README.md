@@ -3,7 +3,7 @@
 ## Introduction
 The purpose of this project is to create an interpreter for standard 6 string tablature.
 
-### Phase 1
+## Phase 1
 Basic interpretation where the number of _ characters represents the
 string number preceding the fret number on that particular string.
 
