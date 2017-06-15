@@ -1,4 +1,4 @@
-public class MusicReader1 {
+public class TabReader1 {
   public static void main(String[] args) {
     String song = "00000000000000000000023";
     int string_num = 0;
