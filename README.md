@@ -100,3 +100,11 @@ input
 output
 
 6 2 > 6 6 > 6 1
+
+input
+
+2v6v1
+
+output
+
+6 2 v 6 6 v 6 1
