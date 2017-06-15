@@ -108,3 +108,16 @@ input
 output
 
 6 2 v 6 6 v 6 1
+
+## Phase 6 
+Notice that our interpreter so far only supports single digit notes.
+As a resolution, we can introduce a union operator to distinguish single
+digit notes from two-digit notes, '.'.
+
+input
+
+1.2
+
+output
+
+6 12
