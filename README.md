@@ -88,3 +88,15 @@ output
 6 0
 
 6 0
+
+## Phase 5
+Let us introduce some commonly used techniques in guitar playing. The
+character 'v' represents hammer-ons and '>' represents slides.
+
+input
+
+2>6>1
+
+output
+
+6 2 > 6 6 > 6 1
