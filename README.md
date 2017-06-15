@@ -66,7 +66,7 @@ the form /*SEQUENCE_OF_NOTES*NUMBER_TO_REPEAT/
 
 input
 
-0 /(asterisk)000(asterisk)2/
+0 /000(asterisk)2/
 
 output
 
