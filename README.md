@@ -116,8 +116,9 @@ digit notes from two-digit notes, '.'.
 
 input
 
-1.2
+1.2__1.3
 
 output
 
-6 12
+6 12 <br />
+4 13
