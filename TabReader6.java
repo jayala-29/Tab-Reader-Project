@@ -47,7 +47,7 @@ public class TabReader6 {
     return false;
   }
   public static void main (String[] args) {
-    String song = "__1.21.3";
+    String song = "1.2__1.3";
     int string_num = 0;
     for (int note = 0; note < song.length(); note++) {
       if (note < song.length() - 2) {
