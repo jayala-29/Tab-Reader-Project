@@ -122,3 +122,14 @@ output
 
 6 12 <br /><br />
 4 13
+
+## Phase 7
+Let us introduce notation for palm-muting (x).
+
+input
+
+x
+
+output
+
+6 0 (x)
