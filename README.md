@@ -128,7 +128,7 @@ Let us introduce notation for palm-muting (x).
 
 input
 
-x
+x0
 
 output
 
